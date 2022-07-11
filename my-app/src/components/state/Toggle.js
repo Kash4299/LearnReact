@@ -6,6 +6,10 @@ import "./ToggleStyle.css";
 // }
 
 //stateful functional components: component có sử dụng state
+
+//Nguyên tác sử dụng useState
+//1. Viết trên cùng sau khi khởi tạo function
+//2. Không viết trong vòng lặp, câu điều kiện, trong function con
 const Toggle = () => {
   //1. enabling state : useState( initialize value)
   // --> initializ value : boolean(true,false), numberm, string, undefined, null, object, array.
