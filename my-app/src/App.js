@@ -1,9 +1,9 @@
-import Game from "./components/tictactoe/Game";
+import GameUseReducer from "./components/tictactoe/GameUseReducer";
 
 function App() {
   return (
     <div>
-      <Game></Game>
+      <GameUseReducer></GameUseReducer>
     </div>
   );
 }
