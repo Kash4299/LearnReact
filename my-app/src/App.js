@@ -1,9 +1,17 @@
-import GameUseReducer from "./components/tictactoe/GameUseReducer";
+import Card from "./components/card/Card";
+import CardList from "./components/card/CardList";
 
 function App() {
   return (
     <div>
-      <GameUseReducer></GameUseReducer>
+      <CardList>
+        <Card secondary={true}></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+      </CardList>
     </div>
   );
 }
