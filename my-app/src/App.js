@@ -4,14 +4,15 @@ import CardList from "./components/card/CardList";
 function App() {
   return (
     <div>
-      <CardList>
+      {/* <CardList>
         <Card secondary={true}></Card>
         <Card></Card>
         <Card></Card>
         <Card></Card>
         <Card></Card>
         <Card></Card>
-      </CardList>
+      </CardList> */}
+      <p className="text-3xl font-bold underline">Hello world!</p>
     </div>
   );
 }
