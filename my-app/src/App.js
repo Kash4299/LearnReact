@@ -1,9 +1,11 @@
-import Photos from "./components/photos/Photos";
+// import HackerNews from "./components/news/HackerNews";
+import HackerNewsWithReducer from "./components/news/HackerNewsWithReducer";
+// import Photos from "./components/photos/Photos";
 
 function App() {
   return (
     <div>
-      <Photos></Photos>
+      <HackerNewsWithReducer></HackerNewsWithReducer>
     </div>
   );
 }

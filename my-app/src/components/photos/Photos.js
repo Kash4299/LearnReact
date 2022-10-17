@@ -3,15 +3,15 @@ import axios from "axios";
 
 //https://picsum.photos/v2/list
 
-const getPhotos = (page) => {
-  return axios
-    .get(`https://picsum.photos/v2/list?page=${page}&limit=8`)
-    .then((response) => {
-      return response.data;
-    })
-    .catch((error) => {
-      console.log(error);
-    });
+const getPhotos = async (page) => {
+  try {
+    const response = await axios.get(
+      `https://picsum.photos/v2/list?page=${page}&limit=8`
+    );
+    return response.data;
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 const Photos = () => {
