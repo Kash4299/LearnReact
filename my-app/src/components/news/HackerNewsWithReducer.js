@@ -28,7 +28,7 @@ const hackerNewsReducer = (state, action) => {
     }
 
     case "SET_URL": {
-      return { ...state, query: action.payload };
+      return { ...state, url: action.payload };
     }
 
     default:
